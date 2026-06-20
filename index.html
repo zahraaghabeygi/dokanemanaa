@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="دکان معنا، پادکستی درباره داستان‌ها و درس‌های دفتر اول مثنوی مولانا">
   <title>دکان معنا</title>
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
   <style>
@@ -613,6 +614,7 @@
   const inner = document.getElementById('medallionInner');
   const img = new Image();
   img.src = 'logo.jpg';
+  img.alt = 'لوگوی دکان معنا';
   img.style.cssText = 'width:100%;height:100%;object-fit:cover;border-radius:50%;display:block;';
   img.onload = () => { inner.innerHTML = ''; inner.appendChild(img); };
 
